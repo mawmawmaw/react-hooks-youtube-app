@@ -1,0 +1,47 @@
+.video-list .video-thumbnail {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+.sixteen.wide .video-list .video-thumbnail img{
+    width: 240px;
+}
+.five.wide .video-list .video-thumbnail img{
+    width: 100px;
+}
+
+.video-list .video-thumbnail img{
+    padding:6px;
+}
+
+.sixteen.wide .video-list .video-thumbnail .content .title {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+.five.wide .video-list .video-thumbnail .content .title {
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    max-width: 200px;
+    max-height: 36px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sixteen.wide .video-list .video-thumbnail .content .channel {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.five.wide .video-list .video-thumbnail .content .channel {
+    font-size: 10px;
+}
+
+.sixteen.wide .video-list .video-thumbnail .content .description {
+    font-size: 14px;
+}
+.five.wide .video-list .video-thumbnail .content .description {
+    display: none;
+}
